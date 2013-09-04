@@ -416,7 +416,7 @@
 		textAlignment = NSTextAlignmentCenter;
 	else if (sender == self.btnTextAlignmentRight)
 		textAlignment = NSTextAlignmentRight;
-	else if (sender == self.btnTextAlignmentJustified)
+	else
 		textAlignment = NSTextAlignmentJustified;
 	
 	[self.delegate richTextEditorToolbarDidSelectTextAlignment:textAlignment];
